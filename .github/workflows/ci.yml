@@ -19,6 +19,4 @@ jobs:
       - name: runs build
         run: npm run build
       - name: runs test
-        run: npm run test   
-      - name: running on every commit 
-        run:    
+        run: npm run test  
