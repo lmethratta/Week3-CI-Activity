@@ -10,10 +10,10 @@ on:
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v3
       - name: installs dependencies
         run: npm install 
       - name: runs build
